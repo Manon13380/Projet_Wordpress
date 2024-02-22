@@ -1,0 +1,336 @@
+0000.000 (0) Opened log file at time: Thu, 22 Feb 2024 16:08:35 +0000 on http://localhost/projet_wordpress/wordpress
+0000.004 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.1 WP: 6.4.3 PHP: 8.1.10 (apache2handler, Windows NT MANON 10.0 build 22631 (Windows 11) AMD64) MySQL: 8.0.36 (max packet size=67108864) WPLANG: fr_FR Server: Apache/2.4.54 (Win64) OpenSSL/1.1.1q PHP/8.1.10 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 90.9M | 94M) multisite: N openssl: OpenSSL 1.1.1q  5 Jul 2022 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.007 (0) Free space on disk containing Updraft's temporary directory: 388193.1 MB
+0000.012 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.015 (0) Semaphore (fd, wp_options) being initialised
+0000.024 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.032 (0) Set semaphore last lock (fd) time to 2024-02-22 16:08:35
+0000.036 (0) Semaphore lock (fd) complete
+0000.047 (0) Backup run: resumption=0, nonce=d41923b7876f, file_nonce=d41923b7876f begun at=1708618115 (0s ago), job type=backup
+0000.053 (0) Scheduling a resumption (1) after 300 seconds (1708618415) in case this run gets aborted
+0000.073 (0) Checking if we have a zip executable available
+0000.081 (0) Creation of backups of directories: beginning
+0000.095 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0002.142 (0) Total entities for the zip file: 1330 directories, 5913 files (0 skipped as non-modified), 116.8 MB
+0002.185 (0) Zip: backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0002.221 (0) Zip: backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0002.256 (0) Zip: backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0002.288 (0) Zip: backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0002.321 (0) Zip: backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0002.337 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.7 MB, 5913 files batched, 544 (544) added so far); re-opening (prior size: 0 KB)
+0005.589 (0) A useful amount of data was added after this amount of zip processing: 5.9 s (normalised: 5.7 s, rate: 4494.2 KB/s)
+0005.594 (0) Performance is good - will increase the amount of data we attempt to batch (time=5.8613939285278, normalised_time=5.6962296904454, max_time=5.5907552242279, data points known=1, old_max_bytes=26214400, new_max_bytes=27612369)
+0005.630 (0) Zip: backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-plugins.zip.tmp: 600 files added (on-disk size: 9096.5 KB)
+0005.669 (0) Zip: backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-plugins.zip.tmp: 700 files added (on-disk size: 9096.5 KB)
+0005.705 (0) Zip: backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-plugins.zip.tmp: 800 files added (on-disk size: 9096.5 KB)
+0005.739 (0) Zip: backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-plugins.zip.tmp: 900 files added (on-disk size: 9096.5 KB)
+0005.773 (0) Zip: backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-plugins.zip.tmp: 1000 files added (on-disk size: 9096.5 KB)
+0005.813 (0) Zip: backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-plugins.zip.tmp: 1100 files added (on-disk size: 9096.5 KB)
+0005.845 (0) Zip: backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-plugins.zip.tmp: 1200 files added (on-disk size: 9096.5 KB)
+0005.880 (0) Zip: backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-plugins.zip.tmp: 1300 files added (on-disk size: 9096.5 KB)
+0005.924 (0) Zip: backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-plugins.zip.tmp: 1400 files added (on-disk size: 9096.5 KB)
+0005.963 (0) Zip: backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-plugins.zip.tmp: 1500 files added (on-disk size: 9096.5 KB)
+0005.982 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (24.5 MB, 5913 files batched, 1001 (1545) added so far); re-opening (prior size: 9096.5 KB)
+0010.338 (0) Zip: backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-plugins.zip.tmp: 1600 files added (on-disk size: 17485.1 KB)
+0010.380 (0) Zip: backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-plugins.zip.tmp: 1700 files added (on-disk size: 17485.1 KB)
+0010.419 (0) Zip: backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-plugins.zip.tmp: 1800 files added (on-disk size: 17485.1 KB)
+0010.467 (0) Zip: backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-plugins.zip.tmp: 1900 files added (on-disk size: 17485.1 KB)
+0010.498 (0) Zip: backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-plugins.zip.tmp: 2000 files added (on-disk size: 17485.1 KB)
+0010.530 (0) Zip: backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-plugins.zip.tmp: 2100 files added (on-disk size: 17485.1 KB)
+0010.563 (0) Zip: backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-plugins.zip.tmp: 2200 files added (on-disk size: 17485.1 KB)
+0010.594 (0) Zip: backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-plugins.zip.tmp: 2300 files added (on-disk size: 17485.1 KB)
+0010.598 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 26.3 MB added on this batch (26.3 MB, 5913 files batched, 759 (2304) added so far); re-opening (prior size: 17485.1 KB)
+0014.304 (0) A useful amount of data was added after this amount of zip processing: 4.6 s (normalised: 4.6 s, rate: 5892.9 KB/s)
+0014.309 (0) Performance is good - will increase the amount of data we attempt to batch (time=4.5760140419006, normalised_time=4.5758733471101, max_time=14.305472135544, data points known=1, old_max_bytes=27612369, new_max_bytes=51794437)
+0014.363 (0) Zip: backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-plugins.zip.tmp: 2400 files added (on-disk size: 24332.8 KB)
+0014.397 (0) Zip: backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-plugins.zip.tmp: 2500 files added (on-disk size: 24332.8 KB)
+0014.434 (0) Zip: backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-plugins.zip.tmp: 2600 files added (on-disk size: 24332.8 KB)
+0014.466 (0) Zip: backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-plugins.zip.tmp: 2700 files added (on-disk size: 24332.8 KB)
+0014.498 (0) Zip: backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-plugins.zip.tmp: 2800 files added (on-disk size: 24332.8 KB)
+0014.534 (0) Zip: backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-plugins.zip.tmp: 2900 files added (on-disk size: 24332.8 KB)
+0014.569 (0) Zip: backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-plugins.zip.tmp: 3000 files added (on-disk size: 24332.8 KB)
+0014.601 (0) Zip: backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-plugins.zip.tmp: 3100 files added (on-disk size: 24332.8 KB)
+0014.634 (0) Zip: backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-plugins.zip.tmp: 3200 files added (on-disk size: 24332.8 KB)
+0014.667 (0) Zip: backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-plugins.zip.tmp: 3300 files added (on-disk size: 24332.8 KB)
+0014.672 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (6.2 MB, 5913 files batched, 1001 (3305) added so far); re-opening (prior size: 24332.8 KB)
+0018.419 (0) Zip: backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-plugins.zip.tmp: 3400 files added (on-disk size: 26377.5 KB)
+0018.452 (0) Zip: backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-plugins.zip.tmp: 3500 files added (on-disk size: 26377.5 KB)
+0018.485 (0) Zip: backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-plugins.zip.tmp: 3600 files added (on-disk size: 26377.5 KB)
+0018.517 (0) Zip: backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-plugins.zip.tmp: 3700 files added (on-disk size: 26377.5 KB)
+0018.550 (0) Zip: backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-plugins.zip.tmp: 3800 files added (on-disk size: 26377.5 KB)
+0018.582 (0) Zip: backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-plugins.zip.tmp: 3900 files added (on-disk size: 26377.5 KB)
+0018.614 (0) Zip: backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-plugins.zip.tmp: 4000 files added (on-disk size: 26377.5 KB)
+0018.646 (0) Zip: backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-plugins.zip.tmp: 4100 files added (on-disk size: 26377.5 KB)
+0018.678 (0) Zip: backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-plugins.zip.tmp: 4200 files added (on-disk size: 26377.5 KB)
+0018.710 (0) Zip: backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-plugins.zip.tmp: 4300 files added (on-disk size: 26377.5 KB)
+0018.715 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (11.6 MB, 5913 files batched, 1001 (4306) added so far); re-opening (prior size: 26377.5 KB)
+0021.797 (0) Zip: backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-plugins.zip.tmp: 4400 files added (on-disk size: 29972.4 KB)
+0021.828 (0) Zip: backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-plugins.zip.tmp: 4500 files added (on-disk size: 29972.4 KB)
+0021.861 (0) Zip: backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-plugins.zip.tmp: 4600 files added (on-disk size: 29972.4 KB)
+0021.894 (0) Zip: backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-plugins.zip.tmp: 4700 files added (on-disk size: 29972.4 KB)
+0021.928 (0) Zip: backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-plugins.zip.tmp: 4800 files added (on-disk size: 29972.4 KB)
+0021.965 (0) Zip: backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-plugins.zip.tmp: 4900 files added (on-disk size: 29972.4 KB)
+0021.999 (0) Zip: backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-plugins.zip.tmp: 5000 files added (on-disk size: 29972.4 KB)
+0022.033 (0) Zip: backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-plugins.zip.tmp: 5100 files added (on-disk size: 29972.4 KB)
+0022.066 (0) Zip: backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-plugins.zip.tmp: 5200 files added (on-disk size: 29972.4 KB)
+0022.099 (0) Zip: backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-plugins.zip.tmp: 5300 files added (on-disk size: 29972.4 KB)
+0022.105 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (18.7 MB, 5913 files batched, 1001 (5307) added so far); re-opening (prior size: 29972.4 KB)
+0026.119 (0) Zip: backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-plugins.zip.tmp: 5400 files added (on-disk size: 36953.1 KB)
+0026.152 (0) Zip: backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-plugins.zip.tmp: 5500 files added (on-disk size: 36953.1 KB)
+0026.188 (0) Zip: backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-plugins.zip.tmp: 5600 files added (on-disk size: 36953.1 KB)
+0026.222 (0) Zip: backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-plugins.zip.tmp: 5700 files added (on-disk size: 36953.1 KB)
+0026.260 (0) Zip: backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-plugins.zip.tmp: 5800 files added (on-disk size: 36953.1 KB)
+0026.294 (0) Zip: backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-plugins.zip.tmp: 5900 files added (on-disk size: 36953.1 KB)
+0029.743 (0) Creating zip file manifest (backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-plugins.zip.list-temp.tmp)
+0029.765 (0) Successfully created zip file manifest (size: 487481)
+0030.062 (0) Created plugins zip (0) - 38220 KB in 30 s (1275.9 KB/s) (sha1: fffa3bfd940ff39f2b16305e90cfa17de13ab08a, sha256: a7560e0f9757cf4ca781cc76528269bb29b339d90228b3f79c01284eabb56f50)
+0030.076 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0030.078 (0) No remote despatch: user chose no remote backup service
+0030.082 (0) Recording as successfully uploaded: backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-plugins.zip
+0030.090 (0) Deleting zip manifest (backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-plugins.zip.list.tmp)
+0030.101 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0030.106 (0) Number of backup sets in history: 0; groups (db): 1
+0030.110 (0) Number of backup sets in history: 0; groups (files): 1
+0030.116 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0030.142 (0) Beginning creation of dump of themes (split every: 400 MB)
+0030.473 (0) Total entities for the zip file: 325 directories, 871 files (0 skipped as non-modified), 25.3 MB
+0030.508 (0) Zip: backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0030.542 (0) Zip: backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0030.590 (0) Zip: backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0030.628 (0) Zip: backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0030.663 (0) Zip: backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0030.697 (0) Zip: backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0030.732 (0) Zip: backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0030.773 (0) Zip: backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-themes.zip.tmp: 800 files added (on-disk size: 0 KB)
+0034.116 (0) Creating zip file manifest (backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-themes.zip.list-temp.tmp)
+0034.121 (0) Successfully created zip file manifest (size: 73959)
+0034.219 (0) Created themes zip (0) - 11981.2 KB in 4.1 s (2945.1 KB/s) (sha1: ce5736b7926b5c7c54144667471fe5297a8c13e0, sha256: 93dc76e4067fed8948ed47c94cb7189076aa7c0227641f5ab13aac94d78aec99)
+0034.227 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0034.228 (0) No remote despatch: user chose no remote backup service
+0034.230 (0) Recording as successfully uploaded: backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-themes.zip
+0034.234 (0) Deleting zip manifest (backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-themes.zip.list.tmp)
+0034.238 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0034.243 (0) Number of backup sets in history: 0; groups (db): 1
+0034.245 (0) Number of backup sets in history: 0; groups (files): 1
+0034.247 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0034.267 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0034.270 (0) Looking for candidates to backup in: C:\laragon\www\projet_wordpress\wordpress/wp-content/uploads
+0034.275 (0) finding files: 2024: adding to list (1)
+0034.279 (0) finding files: elementor: adding to list (2)
+0034.282 (0) finding files: wpforms: adding to list (3)
+0034.286 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0034.377 (0) Total entities for the zip file: 7 directories, 180 files (0 skipped as non-modified), 23.8 MB
+0034.412 (0) Zip: backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0035.435 (0) Creating zip file manifest (backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-uploads.zip.list-temp.tmp)
+0035.438 (0) Successfully created zip file manifest (size: 12423)
+0035.600 (0) Created uploads zip (0) - 20149.8 KB in 1.3 s (15461.6 KB/s) (sha1: 653f0da6c766fe24721e534b181dfbea94a5fe03, sha256: 9c0f76641b2b7ab06d001c2715b592f2bf8b61814f8949164c15386729918ea6)
+0035.614 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0035.617 (0) No remote despatch: user chose no remote backup service
+0035.622 (0) Recording as successfully uploaded: backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-uploads.zip
+0035.631 (0) Deleting zip manifest (backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-uploads.zip.list.tmp)
+0035.640 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0035.645 (0) Number of backup sets in history: 0; groups (db): 1
+0035.649 (0) Number of backup sets in history: 0; groups (files): 1
+0035.652 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0035.669 (0) No backup of mu-plugins: excluded by user's options
+0035.676 (0) Beginning backup of other directories found in the content directory (index: 0)
+0035.680 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0035.684 (0) Looking for candidates to backup in: C:\laragon\www\projet_wordpress\wordpress/wp-content
+0035.688 (0) finding files: index.php: adding to list (1)
+0035.693 (0) finding files: languages: adding to list (2)
+0035.696 (0) finding files: plugins: skipping: this is the plugins directory
+0035.700 (0) finding files: themes: skipping: this is the themes directory
+0035.703 (0) finding files: updraft: skipping: this is the updraft directory
+0035.707 (0) finding files: upgrade: skipping: excluded by options
+0035.711 (0) finding files: uploads: skipping: this is the uploads directory
+0035.759 (0) Total entities for the zip file: 3 directories, 172 files (0 skipped as non-modified), 7.2 MB
+0035.801 (0) Zip: backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0036.882 (0) Creating zip file manifest (backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-others.zip.list-temp.tmp)
+0036.887 (0) Successfully created zip file manifest (size: 12121)
+0036.919 (0) Created others zip (0) - 2029.4 KB in 1.2 s (1697.3 KB/s) (sha1: 6cd7fb1c969c72e36129f1b762d2dac4fa1749e7, sha256: 5c1fe361c81a7d22d2f14589b889a01763be7240898d6795dbd52926689f201c)
+0036.930 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0036.933 (0) No remote despatch: user chose no remote backup service
+0036.937 (0) Recording as successfully uploaded: backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-others.zip
+0036.945 (0) Deleting zip manifest (backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-others.zip.list.tmp)
+0036.953 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0036.956 (0) Number of backup sets in history: 0; groups (db): 1
+0036.958 (0) Number of backup sets in history: 0; groups (files): 1
+0036.960 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0036.987 (0) Saving backup status to database (elements: 8)
+0036.994 (0) Beginning creation of database dump (WordPress DB)
+0036.999 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0037.008 (0) Testing potential mysqldump binary: C:\Program Files\MySQL\MySQL Workbench 8.0\mysqldump.exe
+0037.543 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!50503 SET character_set_client = utf8mb4 */;\n (truncated - 1558 bytes total)
+0037.548 (0) Working binary mysqldump found: "C:\Program Files\MySQL\MySQL Workbench 8.0\mysqldump.exe"
+0037.596 (0) Table wp_options: Total expected rows (via COUNT): 366
+0037.601 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0037.663 (0) Table wp_options: Rows added in this batch (next record: 909): 362 (uncompressed bytes in this segment=2061320) in 0.09 seconds
+0037.684 (0) Table wp_options: finishing file(s) (2, 259.1 KB)
+0037.697 (0) Table wp_users: Total expected rows (via COUNT): 1
+0037.701 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0037.710 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1413) in 0.02 seconds
+0037.730 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0037.757 (0) Table wp_usermeta: Total expected rows (via COUNT): 29
+0037.761 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0037.773 (0) Table wp_usermeta: Rows added in this batch (next record: 30): 29 (uncompressed bytes in this segment=3628) in 0.03 seconds
+0037.801 (0) Table wp_usermeta: finishing file(s) (2, 1.7 KB)
+0037.824 (0) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 9
+0037.827 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0037.836 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 177): 9 (uncompressed bytes in this segment=5636) in 0.02 seconds
+0037.861 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 1.1 KB)
+0037.873 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0037.879 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=621) in 0.01 seconds
+0037.892 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0037.908 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 2
+0037.911 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0037.920 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=702) in 0.02 seconds
+0037.940 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0037.959 (0) Table wp_actionscheduler_logs: Total expected rows (via COUNT): 17
+0037.962 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0037.968 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 17): 17 (uncompressed bytes in this segment=2211) in 0.02 seconds
+0037.990 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 0.6 KB)
+0038.016 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0038.026 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=677) in 0.02 seconds
+0038.055 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0038.075 (0) Table wp_comments: Total expected rows (via COUNT): 1
+0038.079 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0038.091 (0) Table wp_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2237) in 0.02 seconds
+0038.114 (0) Table wp_comments: finishing file(s) (2, 0.8 KB)
+0038.141 (0) Table wp_links: Total expected rows (via COUNT): 0
+0038.145 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1298) in 0.02 seconds
+0038.156 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0038.171 (0) Table wp_postmeta: Total expected rows (approximate): 1089
+0038.196 (0) Table wp_postmeta: Rows added in this batch (next record: 1344): 1104 (uncompressed bytes in this segment=1607859) in 0.03 seconds
+0038.210 (0) Table wp_postmeta: finishing file(s) (2, 37.3 KB)
+0038.226 (0) Table wp_posts: Total expected rows (via COUNT): 220
+0038.228 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0038.244 (0) Table wp_posts: Rows added in this batch (next record: 255): 220 (uncompressed bytes in this segment=864312) in 0.03 seconds
+0038.257 (0) Table wp_posts: finishing file(s) (2, 27.8 KB)
+0038.266 (0) Table wp_term_relationships: Total expected rows (approximate): 27
+0038.271 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 27 (uncompressed bytes in this segment=1048) in 0.01 seconds
+0038.283 (0) Table wp_term_relationships: finishing file(s) (2, 0.5 KB)
+0038.299 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 11
+0038.301 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0038.306 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 11): 11 (uncompressed bytes in this segment=1227) in 0.02 seconds
+0038.321 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0038.336 (0) Table wp_termmeta: Total expected rows (via COUNT): 0
+0038.340 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=650) in 0.01 seconds
+0038.353 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0038.362 (0) Table wp_terms: Total expected rows (via COUNT): 11
+0038.365 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0038.370 (0) Table wp_terms: Rows added in this batch (next record: 11): 11 (uncompressed bytes in this segment=1065) in 0.01 seconds
+0038.381 (0) Table wp_terms: finishing file(s) (2, 0.6 KB)
+0038.391 (0) Table wp_e_events: Total expected rows (via COUNT): 0
+0038.396 (0) Table wp_e_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=525) in 0.01 seconds
+0038.406 (0) Table wp_e_events: finishing file(s) (2, 0.3 KB)
+0038.419 (0) Table wp_wpforms_payment_meta: Total expected rows (via COUNT): 0
+0038.423 (0) Table wp_wpforms_payment_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=731) in 0.01 seconds
+0038.435 (0) Table wp_wpforms_payment_meta: finishing file(s) (2, 0.4 KB)
+0038.444 (0) Table wp_wpforms_payments: Total expected rows (via COUNT): 0
+0038.449 (0) Table wp_wpforms_payments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1958) in 0.01 seconds
+0038.460 (0) Table wp_wpforms_payments: finishing file(s) (2, 0.6 KB)
+0038.473 (0) Table wp_wpforms_tasks_meta: Total expected rows (via COUNT): 4
+0038.475 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0038.481 (0) Table wp_wpforms_tasks_meta: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=969) in 0.01 seconds
+0038.495 (0) Table wp_wpforms_tasks_meta: finishing file(s) (2, 0.5 KB)
+0038.508 (0) Table wp_yoast_indexable: Total expected rows (via COUNT): 23
+0038.510 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0038.514 (0) Table wp_yoast_indexable: Rows added in this batch (next record: 23): 23 (uncompressed bytes in this segment=18283) in 0.01 seconds
+0038.531 (0) Table wp_yoast_indexable: finishing file(s) (2, 3.3 KB)
+0038.540 (0) Table wp_yoast_indexable_hierarchy: Total expected rows (approximate): 20
+0038.546 (0) Table wp_yoast_indexable_hierarchy: Rows added in this batch (next record: 1000): 20 (uncompressed bytes in this segment=1096) in 0.01 seconds
+0038.559 (0) Table wp_yoast_indexable_hierarchy: finishing file(s) (2, 0.4 KB)
+0038.572 (0) Table wp_yoast_migrations: Total expected rows (via COUNT): 24
+0038.574 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0038.581 (0) Table wp_yoast_migrations: Rows added in this batch (next record: 24): 24 (uncompressed bytes in this segment=1261) in 0.01 seconds
+0038.592 (0) Table wp_yoast_migrations: finishing file(s) (2, 0.6 KB)
+0038.605 (0) Table wp_yoast_primary_term: Total expected rows (via COUNT): 1
+0038.608 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0038.611 (0) Table wp_yoast_primary_term: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=977) in 0.01 seconds
+0038.622 (0) Table wp_yoast_primary_term: finishing file(s) (2, 0.5 KB)
+0038.637 (0) Table wp_yoast_seo_links: Total expected rows (via COUNT): 14
+0038.639 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0038.642 (0) Table wp_yoast_seo_links: Rows added in this batch (next record: 15): 14 (uncompressed bytes in this segment=3081) in 0.01 seconds
+0038.652 (0) Table wp_yoast_seo_links: finishing file(s) (2, 0.9 KB)
+0038.654 (0) PHP event: code E_WARNING: filemtime(): stat failed for C:\laragon\www\projet_wordpress\wordpress/wp-content/updraft/backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-db.gz (line 1925, C:\laragon\www\projet_wordpress\wordpress\wp-content\plugins\updraftplus\backup.php)
+0038.658 (0) backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-db-table-wp_options.table.tmpr910.gz (1/25/fopen): adding to final database dump
+0038.664 (0) backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-db-table-wp_options.table.gz (2/25/fopen): adding to final database dump
+0038.667 (0) backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-db-table-wp_users.table.tmpr2.gz (3/25/fopen): adding to final database dump
+0038.669 (0) backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-db-table-wp_users.table.gz (4/25/fopen): adding to final database dump
+0038.671 (0) backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-db-table-wp_usermeta.table.tmpr31.gz (5/25/fopen): adding to final database dump
+0038.674 (0) backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-db-table-wp_usermeta.table.gz (6/25/fopen): adding to final database dump
+0038.676 (0) backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-db-table-wp_actionscheduler_actions.table.tmpr178.gz (7/25/fopen): adding to final database dump
+0038.678 (0) backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-db-table-wp_actionscheduler_actions.table.gz (8/25/fopen): adding to final database dump
+0038.680 (0) backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/25/fopen): adding to final database dump
+0038.682 (0) backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-db-table-wp_actionscheduler_claims.table.gz (10/25/fopen): adding to final database dump
+0038.684 (0) backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-db-table-wp_actionscheduler_groups.table.tmpr3.gz (11/25/fopen): adding to final database dump
+0038.688 (0) backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-db-table-wp_actionscheduler_groups.table.gz (12/25/fopen): adding to final database dump
+0038.690 (0) backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-db-table-wp_actionscheduler_logs.table.tmpr18.gz (13/25/fopen): adding to final database dump
+0038.693 (0) backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-db-table-wp_actionscheduler_logs.table.gz (14/25/fopen): adding to final database dump
+0038.695 (0) backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-db-table-wp_commentmeta.table.tmpr0.gz (15/25/fopen): adding to final database dump
+0038.697 (0) backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-db-table-wp_commentmeta.table.gz (16/25/fopen): adding to final database dump
+0038.700 (0) backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-db-table-wp_comments.table.tmpr2.gz (17/25/fopen): adding to final database dump
+0038.702 (0) backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-db-table-wp_comments.table.gz (18/25/fopen): adding to final database dump
+0038.704 (0) backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-db-table-wp_links.table.tmpr0.gz (19/25/fopen): adding to final database dump
+0038.707 (0) backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-db-table-wp_links.table.gz (20/25/fopen): adding to final database dump
+0038.709 (0) backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-db-table-wp_postmeta.table.tmpr1345.gz (21/25/fopen): adding to final database dump
+0038.712 (0) backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-db-table-wp_postmeta.table.gz (22/25/fopen): adding to final database dump
+0038.714 (0) backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-db-table-wp_posts.table.tmpr256.gz (23/25/fopen): adding to final database dump
+0038.717 (0) backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-db-table-wp_posts.table.gz (24/25/fopen): adding to final database dump
+0038.719 (0) backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-db-table-wp_term_relationships.table.tmpr100001.gz (25/25/fopen): adding to final database dump
+0038.721 (0) backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-db-table-wp_term_relationships.table.gz (26/25/fopen): adding to final database dump
+0038.724 (0) backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-db-table-wp_term_taxonomy.table.tmpr12.gz (27/25/fopen): adding to final database dump
+0038.726 (0) backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-db-table-wp_term_taxonomy.table.gz (28/25/fopen): adding to final database dump
+0038.728 (0) backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-db-table-wp_termmeta.table.tmpr0.gz (29/25/fopen): adding to final database dump
+0038.730 (0) backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-db-table-wp_termmeta.table.gz (30/25/fopen): adding to final database dump
+0038.733 (0) backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-db-table-wp_terms.table.tmpr12.gz (31/25/fopen): adding to final database dump
+0038.736 (0) backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-db-table-wp_terms.table.gz (32/25/fopen): adding to final database dump
+0038.738 (0) backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-db-table-wp_e_events.table.tmpr0.gz (33/25/fopen): adding to final database dump
+0038.740 (0) backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-db-table-wp_e_events.table.gz (34/25/fopen): adding to final database dump
+0038.742 (0) backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-db-table-wp_wpforms_payment_meta.table.tmpr0.gz (35/25/fopen): adding to final database dump
+0038.744 (0) backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-db-table-wp_wpforms_payment_meta.table.gz (36/25/fopen): adding to final database dump
+0038.746 (0) backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-db-table-wp_wpforms_payments.table.tmpr0.gz (37/25/fopen): adding to final database dump
+0038.748 (0) backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-db-table-wp_wpforms_payments.table.gz (38/25/fopen): adding to final database dump
+0038.750 (0) backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-db-table-wp_wpforms_tasks_meta.table.tmpr5.gz (39/25/fopen): adding to final database dump
+0038.753 (0) backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-db-table-wp_wpforms_tasks_meta.table.gz (40/25/fopen): adding to final database dump
+0038.755 (0) backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-db-table-wp_yoast_indexable.table.tmpr24.gz (41/25/fopen): adding to final database dump
+0038.758 (0) backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-db-table-wp_yoast_indexable.table.gz (42/25/fopen): adding to final database dump
+0038.760 (0) backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-db-table-wp_yoast_indexable_hierarchy.table.tmpr1001.gz (43/25/fopen): adding to final database dump
+0038.762 (0) backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-db-table-wp_yoast_indexable_hierarchy.table.gz (44/25/fopen): adding to final database dump
+0038.765 (0) backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-db-table-wp_yoast_migrations.table.tmpr25.gz (45/25/fopen): adding to final database dump
+0038.768 (0) backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-db-table-wp_yoast_migrations.table.gz (46/25/fopen): adding to final database dump
+0038.770 (0) backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-db-table-wp_yoast_primary_term.table.tmpr2.gz (47/25/fopen): adding to final database dump
+0038.772 (0) backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-db-table-wp_yoast_primary_term.table.gz (48/25/fopen): adding to final database dump
+0038.774 (0) backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-db-table-wp_yoast_seo_links.table.tmpr16.gz (49/25/fopen): adding to final database dump
+0038.776 (0) backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-db-table-wp_yoast_seo_links.table.gz (50/25/fopen): adding to final database dump
+0038.786 (0) backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-db.gz: finished writing out complete database file (340.3 KB)
+0038.805 (0) Total database tables backed up: 25 (backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-db.gz, size: 348573, sha1: b658f322dc687229f05cc4f0ce79d3b4adf87870, sha256: ba5f2a58726418bf8563e7e2cee1d94da66aac5382aa8782625e15585d45d078)
+0038.815 (0) backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-plugins.zip: plugins: This file has already been successfully uploaded
+0038.817 (0) backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-themes.zip: themes: This file has already been successfully uploaded
+0038.819 (0) backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-uploads.zip: uploads: This file has already been successfully uploaded
+0038.821 (0) backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-others.zip: others: This file has already been successfully uploaded
+0038.822 (0) backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-db.gz: db: This file has not yet been successfully uploaded: will queue
+0038.824 (0) Saving backup history. Total backup size: 71 MB
+0038.829 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0038.835 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0038.837 (0) No remote despatch: user chose no remote backup service
+0038.839 (0) Recording as successfully uploaded: backup_2024-02-22-1708_Polynsie_Franaise_d41923b7876f-db.gz
+0038.852 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0038.854 (0) Number of backup sets in history: 1; groups (db): 1
+0038.856 (0) Examining (for databases) backup set with group_id=0, nonce=d41923b7876f, datestamp=1708618115 (Feb 22 2024 16:08:35)
+0038.858 (0) This backup set is the backup set just made, so will not be deleted.
+0038.858 (0) Number of backup sets in history: 1; groups (files): 1
+0038.859 (0) Examining (for files) backup set with nonce=d41923b7876f, datestamp=1708618115 (Feb 22 2024 16:08:35)
+0038.859 (0) This backup set is the backup set just made, so will not be deleted.
+0038.861 (0) This backup set is the backup set just made, so will not be deleted.
+0038.861 (0) This backup set is the backup set just made, so will not be deleted.
+0038.861 (0) This backup set is the backup set just made, so will not be deleted.
+0038.862 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0038.863 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0038.867 (0) Resume backup (d41923b7876f, 0): finish run
+0038.872 (0) Decremented the semaphore (fd) by 1
+0038.876 (0) Semaphore (fd) unlocked
+0038.878 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0038.883 (0) The backup succeeded and is now complete
+0038.886 (0) No email will/can be sent - the user has not configured an email address.
+0038.887 (0) La sauvegarde a réussi et est maintenant terminée
